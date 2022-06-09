@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+
+</head>
+<body bgcolor="grey">
+    <h1>Signup Form!</h1>
+    <form action=http://www.example.com/login.php" method="post">
+        <!--Form First Name-->
+        <p>First Name:
+            <input type="text" name="firstname" size="15" maxlength="17" required> 
+
+            <!--Form Last Name-->
+            Last Name:
+            <input type="text" name="lastname" size="15" maxlength="17" required>
+            <br> <br>
+
+            <!--Form Gender-->
+            Gender:
+            <input type="radio" name="gender" checked value="m"> Male 
+            <input type="radio" name="gender" value="f"> Female
+            <br> <br>
+
+            <!--Date of Birth-->
+            Date of Birth:
+            <input type="date" name="dob">
+            <br> <br>
+
+            <!--Email Address-->
+            Enter your email address:
+            <input type="email" name="email">
+            <br> <br>
+
+            <!--Form Nationality-->
+            Nationality:
+            <select name="nationality">
+                <option value="select">Select</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="america">America</option>
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="china">China</option>
+            </select>
+            <br> <br>
+
+            <!--Form Password-->
+            Password:
+            <input type="password" name="password" size="15" maxlength="30">
+            <br> <br>
+
+            <!--Form Re-enter Password-->
+            Re-enter Password:
+            <input type="password" name="re-enterpassword" size="15" maxlength="30">
+            <br> <br>
+
+            <!--Form Interest-->
+            Interest:
+            <input type="checkbox" name="interest" value="Men"> Mens-clothing
+            <input type="checkbox" name="interest" value="Women"> Womens-clothing
+            <input type="checkbox" name="interest" value="accessories"> Accessories
+            <input type="checkbox" name="interest" value="electronics"> Electronics
+            <br> <br>
+
+            <!--Form Comments-->
+            Comments: <br>
+            <textarea name="comments" id="" cols="30" rows="10">Enter your comments...</textarea>
+            <br> <br>
+
+            <!--Form Upload Profile Picture-->
+            Upload profile picture: <br>
+            <input type="file" name="dp"> <br>
+            <input type="submit" value="Upload"> <br>
+            <input type="image" src="../Images/1428.png" height="100" width="100" title="submit">
+        </p>
+        
+        
+    </form>
+</body>
+</html>
